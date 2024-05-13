@@ -34,7 +34,7 @@ const Skill = () => {
                         <div className='w-1/2 h-min flex items-center  justify-center flex-wrap gap-12 '>
                         
                         {skillImg.map((skill) =>(
-                            <div className="w-36 h-36 flex justify-center items-center relative bg-white border border-white rounded-md p-2">
+                            <div className="responsive-img flex justify-center items-center relative bg-white border border-white rounded-md p-2">
                             <img src={skill.img}alt="" />
                             </div>
                         ))}

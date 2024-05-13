@@ -110,3 +110,8 @@ html {
 .resposive-text{
   font-size: clamp(2em,5vw,10em);
 }
+
+.responsive-img{
+  width: clamp(80px, 25%, 144px);
+  height: clamp(80px, 25%, 144px);
+}
