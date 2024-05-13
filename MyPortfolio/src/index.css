@@ -112,7 +112,7 @@ html {
 }
 
 .resposive-text-xl{
-  font-size: clamp(3.5em,5vw,10em);
+  font-size: clamp(3em,5vw,10em);
 }
 
 .responsive-img{
