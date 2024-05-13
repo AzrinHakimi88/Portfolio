@@ -120,3 +120,8 @@ html {
   width: clamp(80px, 25%, 144px);
   height: clamp(80px, 25%, 144px);
 }
+
+.canvas {
+  background: black;
+  position: fixed;
+}

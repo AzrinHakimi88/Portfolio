@@ -23,6 +23,7 @@ const certificateImg = [
 const Skill = () => {
   return (
     <div className='w-screen'>
+        
         <ParallaxBanner
         layers={[
             { image: "./skillbg.jpg", speed: -50 },
@@ -30,12 +31,14 @@ const Skill = () => {
             speed: 100,
             children: (                
                 <div className='absolute  w-full h-full inset-0'>
+                    
                     <div className='flex w-full h-full justify-center items-center transparent-bg'>
+                    
                         <div className='w-1/2 h-min flex items-center  justify-center flex-wrap gap-12 '>
                         
                         {skillImg.map((skill) =>(
                             <div className="responsive-img flex justify-center items-center relative bg-white border border-white rounded-md p-2">
-                            <img src={skill.img}alt="" />
+                            <img src={skill.img} alt="" />
                             </div>
                         ))}
                         
@@ -67,7 +70,7 @@ const Skill = () => {
             },
         ]}
         className="bg-container h-[90vh] w-screen" >
-        
+            <h1 className='absolute text-center w-full text-white poppins-bold resposive-text-xl'>Skills</h1>
         </ParallaxBanner>
     </div>
         
