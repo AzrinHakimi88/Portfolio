@@ -107,8 +107,12 @@ html {
   scrollbar-color: rgba(0, 0, 0, 0.5) transparent; /* For Firefox */
 }
 
-.resposive-text{
+.resposive-text-md{
   font-size: clamp(2em,5vw,10em);
+}
+
+.resposive-text-xl{
+  font-size: clamp(3.5em,5vw,10em);
 }
 
 .responsive-img{
