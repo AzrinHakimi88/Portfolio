@@ -17,8 +17,11 @@ const Home = () => {
           </div>
         </div>
         
-      
-        <ComputersCanvas/> 
+
+        <div className='w-full h-full hidden sm:block'>
+          <ComputersCanvas/> 
+        </div>
+        
 
         
         
