@@ -1,17 +1,22 @@
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas , useThree } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 
 const Computers = () => {
+  const { viewport } = useThree(); // Accessing viewport size
+  const { width, height } = viewport;
+
   const computer = useGLTF("./desktop_pc/scene.gltf");
+
+  // Calculate scale factor based on screen size
+  const scaleFactor = Math.min(width, height) / 10; // Adjust 500 to scale as desired
 
   return (
     <mesh>
-      
       <primitive
         object={computer.scene}
-        scale={0.7}
+        scale={[scaleFactor * 0.7, scaleFactor * 0.7, scaleFactor * 0.7]} // Applying scale factor
         position={[0, -3, -2.2]}
         rotation={[-0.01, -0.2, -0.1]}
       />
