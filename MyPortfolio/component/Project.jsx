@@ -18,9 +18,9 @@ const Project = () => {
                 <div className="bg-container">
                 
                 <h1 className="text-6xl text-white poppins-bold">Project</h1>
-                <div className='p-12 overflow-x-auto w-full flex justify-center items-center'>
+                <div className=' overflow-x-auto w-full flex justify-center items-center'>
 
-                <div className='flex gap-8  overflow-x-auto'>
+                <div className='p-4 flex gap-8  overflow-x-auto rounded-md'>
 
                 
                 <div className='h-[500px] w-[350px] flex flex-shrink-0 flex-col items-center p-2  rounded-md transparent-bg gap-2'>
