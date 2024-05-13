@@ -39,7 +39,7 @@ const Project = () => {
 
                     <div className='flex flex-shrink-0 flex-col items-center w-[350px]  p-2 h-[500px] rounded-md transparent-bg gap-2'>
                         <h1 className='text-xl text-white'>Web Development Project</h1>
-                        <div className='h-[200px] w-full rounded-md overflow-hidden border border-white mt-4 block'>
+                        <div className='h-[200px] w-full rounded-md overflow-hidden border border-white mt-4 block '>
                             <img className='object-cover w-full h-full' src="./webProjectHome.png" alt="" />
                         </div>
 

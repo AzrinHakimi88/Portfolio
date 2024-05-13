@@ -76,8 +76,8 @@ const Drawer = ({ children, open, close,id }) => {
         {children}
 
         <div className='flex gap-4'>
-            <div className='w-[500px] rounded-2xl overflow-hidden'>
-                <img className='w-full h-full' src={projectData[0].displayImg} alt=""/>
+            <div className='w-[500px] rounded-2xl overflow-hidden hidden xl:block'>
+                <img className='w-full ' src={projectData[0].displayImg} alt=""/>
             </div>
             <div className='flex-1 transparent-bg rounded-xl p-4'>
                 <h1 className='text-xl my-4 '>{projectData[0].title}</h1>
