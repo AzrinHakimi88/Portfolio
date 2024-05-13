@@ -18,8 +18,9 @@ a{
 }
 .bg-container{
     position: relative;
-    top: 20%;
-    padding-top: 300px;
+    top: 30%;
+    padding-top: 50px;
+
 }
 
 .bg-container h1 {
