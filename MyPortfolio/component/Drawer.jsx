@@ -62,7 +62,7 @@ const Drawer = ({ children, open, close,id }) => {
 
       {/* Drawer content */}
       {<div
-        className={`overflow-y-auto fixed left-0 mx-4 px-12 bottom-0 z-50 w-full rounded-3xl h-[70%]  bg-gray-500 text-white bg-transparent backdrop-blur-2xl transition-transform ease-in-out duration-300 ${
+        className={`fixed left-0 px-12 bottom-0 z-50 w-full rounded-3xl h-[70%]  bg-gray-500 text-white bg-transparent backdrop-blur-2xl transition-transform ease-in-out duration-300 ${
           isOpen ? 'translate-y-0' : 'translate-y-full'
         }`}
       >
@@ -81,7 +81,7 @@ const Drawer = ({ children, open, close,id }) => {
             </div>
             <div className='flex-1 transparent-bg rounded-xl p-4'>
                 <h1 className='text-xl my-4 '>{projectData[0].title}</h1>
-                <p>{projectData[0].overview}</p>
+                <p className='text-sm sm:text-[1rem]'>{projectData[0].overview}</p>
                 <div className='w-12 h-12 rounded-full overflow-hidden'>
                     <a href={projectData[0].githubLink}>
                         <img src="./github.png" alt="" />  
