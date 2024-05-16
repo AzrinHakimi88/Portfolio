@@ -10,8 +10,8 @@ const data = [
         githubLink: '',
         images:[
             './MovieApp.png',
-            './MovieApp.png',
-            './MovieApp.png'
+            './movie2.png',
+            './movie3.png'
         ]
     },
     {

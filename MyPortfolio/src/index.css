@@ -130,12 +130,15 @@ html {
 .Typewriter__wrapper {
 	font-size: clamp(2em, 5vw, 4em)!important;
   text-align: center;
-	color: #be6adf !important;
+	background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  color: transparent;
+  background-clip: text;
 	font-weight: 600 !important;
 }
 .Typewriter__cursor {
 	font-size: clamp(2.1em, 5vw, 4.1em)!important;
-	color: #b562d6 !important;
+	color: #ffffff !important;
 }
 
 .about-text{
