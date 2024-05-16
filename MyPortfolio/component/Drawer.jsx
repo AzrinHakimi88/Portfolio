@@ -19,7 +19,7 @@ const data = [
         displayImg : './webProjectHome.png',
         title: 'Web Development Project',
         overview: 'This is my group project for Web Development course. This project is about to create a website to support passive or active entrepreneurship. Basically, this web is created to support local artist to promote and seek for a project.',
-        githubLink: '',
+        githubLink: 'https://github.com/Sharwin1707/Web_Programming',
         images:[
             './webDev/1.png',
             './webDev/2.png',
@@ -29,14 +29,14 @@ const data = [
     },
     {
         id: 3,
-        displayImg : './MovieApp.png',
-        title: 'Movie Recomendation App',
-        overview: 'ncacjabcdobcadnlakalvnvnkdvb',
-        githubLink: '',
+        displayImg : './mad1.png',
+        title: 'Earth Guard',
+        overview: 'This is my project for Mobile App Development subject. This project is based on Sustainable Development Goals 13 that is climate action. So, this application is develope to improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning. The development of this application is by using Android Studio. As a group project, we used agile development method to improve project efficiency and reduced development time by 15%.',
+        githubLink: 'https://github.com/AzrinHakimi00/MAD_ASSIGNMENT',
         images:[
-            './MovieApp.png',
-            './MovieApp.png',
-            './MovieApp.png'
+            './mad2.png',
+            './mad3.png',
+            './mad4.png'
         ]
     },
 ]
@@ -71,22 +71,27 @@ const Drawer = ({ children, open, close,id }) => {
         
         }
         <div className='w-full flex justify-center mt-4 mb-12'>
-            <button  onClick={toggleDrawer} className='px-8 py-4 bg-white text-black rounded-md' >Close</button>
+            <button  onClick={toggleDrawer} className='px-6 py-3 bg-white text-black rounded-md' >Close</button>
         </div>
         {children}
 
         <div className='flex gap-4'>
-            <div className='w-[500px] rounded-2xl overflow-hidden hidden xl:block'>
-                <img className='w-full ' src={projectData[0].displayImg} alt=""/>
+            <div className='w-[500px] max-h-[300px] rounded-2xl border border-white overflow-hidden hidden xl:block'>
+                <img className='w-full max-h-[300px] object-contain' src={projectData[0].displayImg} alt=""/>
             </div>
             <div className='flex-1 transparent-bg rounded-xl p-4'>
                 <h1 className='text-xl my-4 '>{projectData[0].title}</h1>
-                <p className='text-sm sm:text-[1rem]'>{projectData[0].overview}</p>
-                <div className='w-12 h-12 rounded-full overflow-hidden'>
-                    <a href={projectData[0].githubLink}>
-                        <img src="./github.png" alt="" />  
-                    </a>
+                <div className=' flex flex-col justify-between'>
+                  <div className='max-h-[180px] overflow-scroll'>
+                    <p className='text-sm sm:text-[1rem]'>{projectData[0].overview}</p>
+                  </div>
+                  <div className='w-12 h-12 rounded-full overflow-hidden mt-8'>
+                      <a href={projectData[0].githubLink}>
+                          <img src="./github.png" alt="" />  
+                      </a>
+                  </div>
                 </div>
+                
                 
                 <div>
 
@@ -95,9 +100,12 @@ const Drawer = ({ children, open, close,id }) => {
         </div>
         
         <div className='w-full flex justify-center items-center'>
-            <div className='flex overflow-x-auto  gap-8 my-20' >
+            <div className='flex overflow-x-auto gap-8 my-8' >
                 {projectData[0].images.map((img, index) => (
-                    <img key={index} className='w-[350px]' src={img} alt=""/>
+                  <div className='w-[300px] flex-shrink-0 border border-white flex justify-center
+                  '>
+                    <img key={index} className='h-[200px] object-cover' src={img} alt=""/>
+                  </div>         
                 ))}
             </div>
         </div>

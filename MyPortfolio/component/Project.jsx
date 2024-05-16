@@ -52,12 +52,12 @@ const Project = () => {
                     </div>
 
                     <div className='flex flex-shrink-0 flex-col items-center w-[350px] p-2 h-[500px] rounded-md transparent-bg gap-2'>
-                        <h1 className='text-xl text-white'>Web Development Project</h1>
+                        <h1 className='text-xl text-white'>Earth Guard</h1>
                         <div className='h-[200px] rounded-md overflow-hidden border border-white mt-4 block'>
-                        <img className='object-cover w-full h-full' src="./webProjectHome.png" alt="" />
+                        <img className='object-cover w-full h-full' src="./mad1.png" alt="" />
                         </div>
                         <p className='line-clamp-6 text-white'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, laboriosam rerum. Totam consectetur ullam sed at quidem possimus? Accusamus blanditiis velit adipisci vel voluptate impedit dolores quisquam inventore at facere!
+                            This is my project for Mobile App Development subject. This project is based on Sustainable Development Goals 13 that is climate action. So, this application is develope to improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning. The development of this application is by using Android Studio. As a group project, we used agile development method to improve project efficiency and reduced development time by 15%.
                         </p>
                         <Drawer open="Open" close="Close" id={3}>
   

@@ -125,3 +125,19 @@ html {
   background: black;
   position: fixed;
 }
+
+
+.Typewriter__wrapper {
+	font-size: clamp(2em, 5vw, 4em)!important;
+  text-align: center;
+	color: #be6adf !important;
+	font-weight: 600 !important;
+}
+.Typewriter__cursor {
+	font-size: clamp(2.1em, 5vw, 4.1em)!important;
+	color: #b562d6 !important;
+}
+
+.about-text{
+  font-size: clamp(8px, 4vw, 20px);
+}
