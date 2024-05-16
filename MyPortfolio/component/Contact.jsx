@@ -6,9 +6,9 @@ const Contact = () => {
 
   
   return (
-    <div className='h-[90vh] w-[100vw]  bg-slate-950 flex items-center justify-center p-5'>
+    <div className='h-[90vh] w-[100vw] bg-slate-950 flex items-center justify-center p-5 z-10'>
         
-        <div className='w-full md:w-[80%] flex flex-col md:flex-row justify-center gap-20 items-center'>
+        <div className='w-full md:w-[80%] flex flex-col md:flex-row justify-center gap-20 items-center z-10'>
             <div>
               <h1 className='text-white resposive-text-md'>Contact Me</h1>
               <p className='text-white text-xl'>for internship</p>

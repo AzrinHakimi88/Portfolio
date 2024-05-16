@@ -14,7 +14,7 @@ const Header = ({ homeRef, aboutRef,skillRef, projectRef, contactRef }) => {
 
   return (
     
-    <div className='sticky top-0 left-0 z-10 h-[10vh] w-screen bg-slate-400 flex justify-between items-center px-6 py-5'>
+    <div className='sticky top-0 left-0 z-20 h-[10vh] w-screen bg-slate-400 flex justify-between items-center px-6 py-5'>
       <div>
         <h1 className=''>MyPortfolio</h1>
       </div>

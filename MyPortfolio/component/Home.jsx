@@ -3,7 +3,7 @@ import ComputersCanvas from './Canvas3d';
 
 const Home = () => {
   return (
-    <div className='relative h-[90vh] w-[100vw] overflow-x-hidden bg-slate-950'>
+    <div className='relative h-[90vh] w-[100vw] z-10 overflow-x-hidden bg-slate-950'>
         
         <div className='absolute inset-0 flex'>
           <div className='transparent-bg h-full w-1/2  p-4'>
