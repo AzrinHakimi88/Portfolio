@@ -7,7 +7,7 @@ const data = [
         displayImg : './MovieApp.png',
         title: 'Movie Recomendation App',
         overview: 'This project was created when I am learning about react native. This is an application that sunggest a recommended movies and shows. I am using Movie API to get the data about top movies and shows from around the world.',
-        githubLink: '',
+        githubLink: 'https://github.com/AzrinHakimi88/MovieApp',
         images:[
             './MovieApp.png',
             './movie2.png',
